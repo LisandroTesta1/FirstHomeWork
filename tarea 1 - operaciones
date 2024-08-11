@@ -1,7 +1,10 @@
 /* Type your code here, or load an example. */
+/*
+Crear un programa sencillo en C subirlo al repositorio.
 
-//Crear un programa sencillo en C subirlo al repositorio.
-//Hello world program.
+Calculadora que realice las 4 operaciones basicas con dos numero
+introducidos por usuario.
+*/
 
 #include <stdio.h>
 
