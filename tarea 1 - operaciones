@@ -1,1 +1,32 @@
+/* Type your code here, or load an example. */
 
+//Crear un programa sencillo en C subirlo al repositorio.
+//Hello world program.
+
+#include <stdio.h>
+
+int num1 = 0;
+int num2 = 0;
+int suma;
+int resta;
+int div;
+int mult;
+
+int main(){
+    printf("ingrese el primer numero: \n");
+    scanf("%i",&num1);
+    printf("ingrese el segundo numero: \n");
+    scanf("%i",&num2);
+
+    suma = num1+num2;
+    resta = num1-num2;
+    div = num1/num2;
+    mult = num1*num2;
+
+    printf("La suma es: %i\n",suma);
+    printf("La resta es: %i\n",resta);
+    printf("La division es: %i\n",div);
+    printf("La multiplicacion es: %i\n",mult);
+
+    return 0;
+}
